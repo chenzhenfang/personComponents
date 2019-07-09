@@ -2,6 +2,11 @@
   <div class="Slider">
     <div class="container">
       <SvgIcon id="svgIcon" :iconName="iconname" :width="100" :height="100"></SvgIcon>
+      <!-- <span class="iconfont">&#xe608;</span>
+      <span class="iconfont icon-home" style="font-size: 100px"></span>
+      <svg>
+         <use xlink:href="#icon-shuangjianbao"></use>
+      </svg> -->
     </div>
   </div>
 </template>

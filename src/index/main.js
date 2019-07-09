@@ -7,6 +7,7 @@ import Lodash from 'lodash'
 import Echarts from 'echarts'
 import infiniteScroll from 'vue-infinite-scroll'
 import 'element-ui/lib/theme-chalk/index.css'
+import '@/assets/iconfont/iconfont.css'
 import * as custom from '../filters'
 // 全局指令
 Object.keys(custom).forEach(key => {
