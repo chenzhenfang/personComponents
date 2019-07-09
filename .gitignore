@@ -1,0 +1,13 @@
+
+# Package Manager
+node_modules/
+
+# Builds
+/dist/*
+src/assets/*
+
+# Development System Config
+/config.dev.js
+
+# npm lockfile
+/package-lock.json
