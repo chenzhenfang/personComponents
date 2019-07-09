@@ -18,7 +18,7 @@
       <router-link to="/model">Model</router-link> |
       <router-link to="/update">Update</router-link> |
       <router-link to="/step">Step</router-link> |
-      <router-link to="/svgCss">SvgCss</router-link>
+      <!-- <router-link to="/svgCss">SvgCss</router-link> -->
     </div>
     <keep-alive>
       <router-view v-if="$route.meta.keepAlive"></router-view>
