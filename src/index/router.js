@@ -18,6 +18,8 @@ import Model from './views/Model.vue'
 import Update from './views/Update.vue'
 import Step from './views/Step.vue'
 import SvgCss from './views/SvgCss.vue'
+import Positions from './views/Positions.vue'
+import Route from './views/Route.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -46,7 +48,7 @@ export default new Router({
       path: '/Accordion',
       name: 'accordion',
       component: Accordion
-    }, 
+    },
     {
       path: '/Slider',
       name: 'slider',
@@ -109,11 +111,27 @@ export default new Router({
       path: '/Step',
       name: 'step',
       component: Step,
+      meta: {
+        keepAlive: true // 需要缓存
+      }
     },
     {
       path: '/SvgCss',
       name: 'svgCss',
       component: SvgCss,
+    },
+    {
+      path: '/Positions',
+      name: 'positions',
+      component: Positions,
+      meta: {
+        keepAlive: true // 需要缓存
+      }
+    },
+    {
+      path: '/Route',
+      name: 'route',
+      component: Route,
     }
   ]
 })

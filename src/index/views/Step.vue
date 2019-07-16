@@ -3,6 +3,7 @@
     <Steps :active="activeStep" :stepList="stepList"></Steps>
     <el-button @click="pre" class="preButton">上一步</el-button>
     <el-button @click="next" class="nextButton">下一步</el-button>
+    <el-button @click="change">Route跳转</el-button>
   </div>
 </template>
 <script>
@@ -26,6 +27,9 @@ export default {
       } else {
         this.activeStep--;
       }
+    },
+    change(){
+       this.$router.push({name: 'route', params: {from: 'step'}});
     }
   }
 };

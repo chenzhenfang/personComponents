@@ -18,6 +18,8 @@
       <router-link to="/model">Model</router-link> |
       <router-link to="/update">Update</router-link> |
       <router-link to="/step">Step</router-link> |
+      <router-link to="/positions">Positions</router-link> |
+      <router-link to="/route">Route</router-link> |
       <!-- <router-link to="/svgCss">SvgCss</router-link> -->
     </div>
     <keep-alive>

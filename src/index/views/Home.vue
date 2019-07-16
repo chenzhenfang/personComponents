@@ -18,6 +18,8 @@
     <router-link to="/model">Model Vue自定义事件</router-link> |
     <router-link to="/update">Update Vue emit('update')</router-link> |
     <router-link to="/step">Step 进度条</router-link> |
+    <router-link to="/positions">Positions 定位</router-link> |
+    <router-link to="/route">Route 路由跳转</router-link> |
     <!-- <router-link to="/svgCss">Svg 动画</router-link> -->
   </div>
 </template>
